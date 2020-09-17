@@ -1,38 +1,40 @@
-.App {
+
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Grandstander:ital@1&display=swap');
+
+.brand-logo {
+  font-family: 'Grandstander', cursive;
+}
+
+a {
+  color: black !important;
+}
+
+.auth-card {
+  padding: 20px;
   text-align: center;
+  max-width: 400px;
+  margin: 10px auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.myCard {
+  margin-top: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.gallery {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.item {
+  width: 400px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home {
+}
+
+.home-card {
+  max-width: 800px;
+  height: max-content;
+  margin: 26px auto;
 }
